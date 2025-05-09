@@ -25,7 +25,7 @@ test_1 = executable('test_1',
 )
 
 
-test('Test 1 Better Title Here', test_1)
+test('Test 1 - Prints 1 through 3', test_1)
 
 test_2 = executable('test_2',
   sources: [
@@ -40,7 +40,7 @@ test_2 = executable('test_2',
 )
 
 
-test('Test 2 Better Title Here', test_2)
+test('Test 2 - Prints 1 through 5', test_2)
 
 test_3 = executable('test_3',
   sources: [
@@ -55,7 +55,7 @@ test_3 = executable('test_3',
 )
 
 
-test('Test 3 Better Title Here', test_3)
+test('Test 3 - Prints 1 through 15', test_3)
 
 test_4 = executable('test_4',
   sources: [
@@ -70,4 +70,4 @@ test_4 = executable('test_4',
 )
 
 
-test('Test 4 Better Title Here', test_4)
+test('Test 4 - Prints 1 through 17', test_4)
