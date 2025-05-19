@@ -473,42 +473,143 @@ FizzBuzz
 
 1 Tests 0 Failures 0 Ignored
 OK
+```
+| Test Name | Possible Score |
+| ----------- | ----------- |
+| Test 1 - Prints 1 through 3 | 12.5 |
+| Test 2 - Prints 1 through 5 | 12.5 |
+| Test 3 - Prints 1 through 15 | 12.5 |
+| Test 4 - Prints 1 through 17 | 12.5 |
+| **Total** | **50/50** |
+
+If there are failing checks you will see summary of the failing tests, for example:
+
+```
+❌ Test 1 - Prints 1 through 3
+Expected output:
+1
+2
+Fizz
+
+Actual output:
+Fizz
+Fizz
+Fizz
+
+../.github/checker/tests/test_1/test_1.c:36:test_1:FAIL: Expected '1\n2\nFizz\n' Was 'Fizz\nFizz\nFizz\n'
+
+1 Tests 1 Failures 0 Ignored
+FAIL
 ---
+❌ Test 2 - Prints 1 through 5
+Expected output:
+1
+2
+Fizz
+4
+Buzz
 
-Ok:                 4
-Expected Fail:      0
-Fail:               0
-Unexpected Pass:    0
-Skipped:            0
-Timeout:            0
+Actual output:
+Buzz
+Buzz
+Buzz
+Buzz
+Buzz
+
+../.github/checker/tests/test_2/test_2.c:36:test_2:FAIL: Expected '1\n2\nFizz\n4\nBuzz\n' Was 'Buzz\nBuzz\nBuzz\nBuzz\nBuzz\n'
+
+1 Tests 1 Failures 0 Ignored
+FAIL
+---
+❌ Test 3 - Prints 1 through 15
+Expected output:
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+
+Actual output:
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+FizzBuzz
+
+../.github/checker/tests/test_3/test_3.c:36:test_3:FAIL: Expected '1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n' Was 'FizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\nFizzBuzz\n'
+
+1 Tests 1 Failures 0 Ignored
+FAIL
+---
+❌ Test 4 - Prints 1 through 17
+Expected output:
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+
+Actual output:
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+17
+
+../.github/checker/tests/test_4/test_4.c:36:test_4:FAIL: Expected '1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n16\n17\n' Was '17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n17\n'
+
+1 Tests 1 Failures 0 Ignored
+FAIL
+---
 ```
-
-If there are failing checks you will see summary of the failing tests:
-
-```
-❌ Test 1 - Max of positive numbers
-../.github/checker/tests/test_1.c:13:test_1:FAIL: Expected 3 Was 1
-
-❌ Test 2 - Max of negative numbers
-../.github/checker/tests/test_2.c:14:test_2:FAIL: Expected -2 Was -4
-
-❌ Test 3 - Max of positive and negative numbers
-../.github/checker/tests/test_3.c:14:test_3:FAIL: Expected 4 Was 3
-
-❌ Test 4 - Max of repeating numbers
-../.github/checker/tests/test_4.c:14:test_4:FAIL: Expected 1 Was 0
-
-Summary of Failures:
-
-1/4 Test 1 - Max of positive numbers                          FAIL            0.14s   exit status 2
-2/4 Test 2 - Max of negative numbers                          FAIL            0.25s   exit status 2
-3/4 Test 3 - Max of positive and negative numbers             FAIL            0.35s   exit status 2
-4/4 Test 4 - Max of repeating numbers                         FAIL            0.46s   exit status 2
-
-Ok:                 0
-Expected Fail:      0
-Fail:               4
-Unexpected Pass:    0
-Skipped:            0
-Timeout:            0
-```
+| Test Name | Possible Score |
+| ----------- | ------------------ |
+| Test 1 - Prints 1 through 3  | 0 |
+| Test 2 - Prints 1 through 5 | 0 |
+| Test 3 - Prints 1 through 15 | 0 |
+| Test 4 - Prints 1 through 17 | 0 |
+| **Total** | **0/50** |
